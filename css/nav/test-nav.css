@@ -10,7 +10,7 @@ html {
 	line-height: 1.2;
 	background: white;
 	/* font-family:  sans-serif; */
-	font-weight: 300;
+	/* font-weight: 300; */
 	box-sizing: border-box;
   background-image: url(http://www.somervillenoida.in/images/menu_bg_rpt.jpg);
 }
@@ -23,12 +23,16 @@ body{
 
 }
 .navigation {
-  z-index: 1;
+  z-index: 1 !important;
+  margin-left: -15px;
+  /* padding-right: 20px !important; */
     /* position: absolute;
     z-index: 1; */
     /* position: absolute; */
     /* margin: -10px; */
     height: 70px;
+    /* width: ; */
+    
     background: white;
   }
   .brand {
@@ -203,6 +207,7 @@ body{
 @media only screen and (max-width:718px) {
     .navigation{
         display: block;
+        z-index: 1 !important;
     }
     .web-vers{
         display: none;
@@ -445,6 +450,7 @@ nav .content.active {
 			font-size: 10px;
 		} */
     .nav-container{
+      z-index: 1 !important;
         display:block;
     }
 }
