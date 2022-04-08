@@ -1,0 +1,94 @@
+.about {
+    background: rgba(0, 0, 0, 0.2);
+    background: url("https://images.uniapply.com/uploads/college/image/500/2180/webp/Maharaja_Agarsain_Public_School_1477_Building_1.webp") no-repeat center center;
+    background-size: cover;
+    margin: -10px !important;
+    width: 100vw;
+    overflow-x: hidden;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    height: 500px;
+    width: 800px;
+    padding: 16px 0 0;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* .nav {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+  .nav a {
+    color: #333;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 8px;
+  }
+  .nav .nav__text {
+    font-size: 10px;
+    font-style: italic;
+  }
+  .nav .nav__icon-1 {
+    margin: 0 8px 0 24px;
+  }
+   */
+  #text {
+    width: 500%;
+    margin: 72px 32px 32px;
+    z-index: 1;
+  }
+  #text h1 {
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+    font-size: 56px;
+    line-height: 1;
+    margin: 32px 0 40px;
+  }
+  #text p {
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+    width: 50%;
+    opacity: 0.7;
+  }
+  
+  .text__col {
+    width: 70%;
+    margin: 126px 0 0;
+    display: flex;
+  }
+  .text__col .text__col__item {
+    width: 50%;
+  }
+  .text__col .text__col__item .text__col__item__title {
+    font-weight: 500 !important;
+  }
+  .text__col .text__col__item p {
+    margin: 0;
+  }
+  
+  #img {
+    display: flex;
+    align-items: flex-end;
+  }
+  #img img {
+    height: 100%;
+    width: 200%;
+    object-fit: cover;
+    margin: 0 0 0 -100%;
+    opacity: 0.2;
+  }
