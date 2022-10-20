@@ -25,7 +25,7 @@
   const content = document.querySelectorAll(".content");
   const pictures = document.querySelectorAll(".picture");
   const imgUrls = [
-      "https://images.unsplash.com/photo-1619468129361-605ebea04b44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "https://i.ytimg.com/vi/GUHMGSfv--k/hqdefault.jpg",
       "https://assets.codepen.io/t-1/melissa-walker-horn-NkwNp3ho-Qw-unsplash.jpg",
       "https://assets.codepen.io/t-1/jay-gajjar-vsYCZVef28E.jpg",
       "https://images.unsplash.com/photo-1537785713284-0015ce8a145c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
