@@ -1,5 +1,4 @@
 console.clear();
-
 const navMenuItems = document.querySelectorAll(".has-dropdown");
 const dropdownContentContainer = document.querySelector(".dropdown-content");
 const content = document.querySelectorAll(".content");
